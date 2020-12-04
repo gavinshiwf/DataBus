@@ -1,23 +1,24 @@
-package java.com.gavin.java.jdbctemplate;
+package com.gavin.java.jdbctemplate;
+
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.com.gavin.java.configuration.ConfigManager;
-import java.com.gavin.java.exception.EtlException;
+import com.gavin.java.configuration.ConfigManager;
+import com.gavin.java.exception.EtlException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 /**
  * author:gavin
- * time:2020-12-03
+ * time:2020-12-02
  */
 public class HiveJdbcConnection {
     private static final Logger LOG = LoggerFactory.getLogger(HiveJdbcConnection.class);
 
-    public JdbcConnectionFactory getConnectionFactory(String url,String userName,String password){
-        return new JdbcConnectionFactory(DataBaseType.Hive,url,userName,password);
+    public java.com.gavin.java.jdbctemplate.JdbcConnectionFactory getConnectionFactory(String url, String userName, String password){
+        return new java.com.gavin.java.jdbctemplate.JdbcConnectionFactory(DataBaseType.Hive,url,userName,password);
     }
 
     public boolean sqlQuery(String sql,String hiveDB) throws SQLException{

@@ -1,6 +1,6 @@
-package java.com.gavin.java.jdbctemplate;
+package com.gavin.java.jdbctemplate;
 
-import java.com.gavin.java.exception.EtlException;
+import com.gavin.java.exception.EtlException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.util.Properties;

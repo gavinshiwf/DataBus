@@ -1,5 +1,4 @@
-package java.com.gavin.java.exception;
-
+package com.gavin.java.exception;
 /**
  * author:gavin
  * info:自定义EtlException

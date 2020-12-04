@@ -1,8 +1,8 @@
-package java.com.gavin.java.jdbctemplate;
+package com.gavin.java.jdbctemplate;
 
 /**
  * author:gavin
- * time:2020-12-03
+ * time:2020-12-02
  */
 public enum DataBaseType {
     Mysql("mysql","com.mysql.jdbc.Driver"),

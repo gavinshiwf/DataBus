@@ -1,4 +1,4 @@
-package java.com.gavin.java.configuration;
+package com.gavin.java.configuration;
 
 import org.apache.commons.io.FilenameUtils;
 import org.apache.commons.lang3.StringUtils;

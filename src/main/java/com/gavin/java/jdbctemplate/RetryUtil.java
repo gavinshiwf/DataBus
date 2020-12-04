@@ -1,4 +1,4 @@
-package java.com.gavin.java.jdbctemplate;
+package com.gavin.java.jdbctemplate;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -8,7 +8,7 @@ import java.util.concurrent.*;
 
 /**
  * author:gavin
- * time:2020-12-03
+ * time:2020-11-25
  * jdbc 重试次数
  */
 public class RetryUtil {
